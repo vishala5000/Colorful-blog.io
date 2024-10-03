@@ -100,9 +100,9 @@
             canvas.width = size;
             canvas.height = size;
 
-            // Load the background image
+            // Load the background image from the same directory
             const backgroundImage = new Image();
-            backgroundImage.src = 'images/bg.jpg'; // Updated to reflect the correct path
+            backgroundImage.src = 'bg.jpg'; // Pointing directly to bg.jpg in the same directory
 
             backgroundImage.onload = () => {
                 console.log("Background image loaded successfully.");
